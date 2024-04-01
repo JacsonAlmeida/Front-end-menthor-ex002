@@ -1,6 +1,29 @@
+/* reset page */
+@import url('../CSS/reset.css');
+
+/*font Inter import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
     font-family: Inter;
 }
+:root { font-size: 62.5%;
 
+    /* Colors */
+    Green: hsl(75, 94%, 57%);
+    White: hsl(0, 0%, 100%);
+    Grey: hsl(0, 0%, 20%);
+    DarkGrey: hsl(0, 0%, 12%);
+    OffBlack: hsl(0, 0%, 8%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: hsl(0, 0%, 8%);
+}
+img {width: 100px;}

@@ -87,3 +87,41 @@ main {
     white-space: nowrap;
     
 }
+
+.social-links {
+    width: 100%;
+    margin-top: 2.6rem;
+}
+
+.social-links nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    height: 4.5rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.7rem;
+    color: hsl(0, 0%, 100%);
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+
+    cursor
+}
+
+.social-links #instagram {
+    margin-bottom: 0;
+}
+
+.social-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+

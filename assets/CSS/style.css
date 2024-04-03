@@ -25,5 +25,8 @@ body {
     height: 100vh;
 
     background-color: hsl(0, 0%, 8%);
+
+    font-size: 1.6rem;
 }
-img {width: 100px;}
+img {width: 9.0rem;
+border-radius: 50%;}
